@@ -1,0 +1,48 @@
+
+body {
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+#demo-canvas{
+	float: right;
+}
+
+.title{
+	    position: absolute;
+    z-index: 2;
+    width: 1120px;
+    margin-left: -246px;
+    margin-top: 200px;
+}
+.logo{
+	    position: absolute;
+    z-index: 2;
+    top: -2%;
+    /* left: 50%; */
+    width: 331px;
+    height: auto;
+    margin-top: 21px;
+    margin-left: 95px;
+    animation: pulse 5s, mov 1s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mov {
+  0% {
+    margin-top: -21px;
+  }
+  100% {
+     margin-top: 21px;
+  }
+}
